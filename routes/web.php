@@ -8,11 +8,25 @@ Route::get('/', function () {
 
 
 Route::get('/about', function () {
-return view('about', ['nama' => 'Revy Pramana', 'title' => 'About']);
+    return view('about', ['nama' => 'Revy Pramana', 'title' => 'About']);
 });
 
-Route::get('/blog', function () {
-    return view('blog', ['title' => 'Blog']);
+Route::get('/posts', function () {
+    return view('posts', [
+        'title' => 'Blog',
+        'posts' => [[
+            'title' => 'Judul Artikel 1',
+            'author' => 'Revy Pramana',
+            'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vel sunt blanditiis optio aut fugit a hic ipsum modi cum esse quos cupiditate quae quo accusantium quasi laudantium, dolor eum!'
+
+        ],
+        [
+            'title' => 'Judul Artikel 2',
+            'author' => 'Revy Pramana',
+            'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vel sunt blanditiis optio aut fugit a hic ipsum modi cum esse quos cupiditate quae quo accusantium quasi laudantium, dolor eum!'
+        ]
+        ]
+    ]);
 });
 
 Route::get('/contact', function () {
