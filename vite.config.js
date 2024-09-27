@@ -8,7 +8,20 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    build: {
-        outDir: 'public/build', // Specify the output directory
-    },
+    "builds": [
+        {
+          "src": "public/*",
+          "use": "@vercel/static"
+        },
+        {
+          "src": "api/index.php",
+          "use": "@vercel/php"
+        }
+      ],
+      "routes": [
+        {
+          "src": "/(.*)",
+          "dest": "public/index.php"
+        }
+      ]
 });
