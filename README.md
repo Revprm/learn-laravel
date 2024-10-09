@@ -30,13 +30,16 @@ php artisan serve
 ---
 
 ### Blog Page:
-![image](https://github.com/user-attachments/assets/6212b691-9dc7-402f-aaad-9d7953957499)
-![image](https://github.com/user-attachments/assets/75978c4e-7c46-4b4d-ac77-f3af391fd707)
-![image](https://github.com/user-attachments/assets/990ffa84-03b6-4c4b-b21c-e4addf1e39fd)
+![image](https://github.com/user-attachments/assets/42f3c77e-641e-4414-a2d4-55305fd14caa)
+![image](https://github.com/user-attachments/assets/fe706d1a-7835-427b-9b98-58069b99a69a)
+![image](https://github.com/user-attachments/assets/a50a5e60-3bdc-45aa-8287-f287883e8457)
+
+
 ---
 
 ### Full Blog Page:
-![image](https://github.com/user-attachments/assets/978ce49b-de00-4177-93ad-777d3b5d0540)
+
+![image](https://github.com/user-attachments/assets/2c5140b1-34e9-4a8e-bed9-a41c515779a5)
 
 ---
 
