@@ -14,7 +14,7 @@
 ```
 composer install
 npm install
-php artisan migrate
+php artisan migrate:fresh --seed
 npm run dev
 php artisan serve
 ```
@@ -30,20 +30,13 @@ php artisan serve
 ---
 
 ### Blog Page:
-
-![image](https://github.com/user-attachments/assets/88c2b787-736d-4c7a-9d11-a2f795fc2f90)
-
-<h4>Updated the articles and fixed the routing</h4>
-
+![image](https://github.com/user-attachments/assets/6212b691-9dc7-402f-aaad-9d7953957499)
+![image](https://github.com/user-attachments/assets/75978c4e-7c46-4b4d-ac77-f3af391fd707)
+![image](https://github.com/user-attachments/assets/990ffa84-03b6-4c4b-b21c-e4addf1e39fd)
 ---
 
 ### Full Blog Page:
-
-#### Article 1:
-![image](https://github.com/user-attachments/assets/4e1fef7c-fab6-4628-9a05-10f41a624f0c)
-
-#### Article 2:
-![image](https://github.com/user-attachments/assets/8a69cce7-8112-419c-b16c-58d599358c19)
+![image](https://github.com/user-attachments/assets/978ce49b-de00-4177-93ad-777d3b5d0540)
 
 ---
 
